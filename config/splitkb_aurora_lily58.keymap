@@ -27,7 +27,9 @@
                               &mt UP_ARROW LEFT_ARROW  &kp DOWN  &kp BACKSPACE  &kp SPACE   &kp RET  &kp LEFT_CONTROL  &kp ESCAPE   &kp LWIN
             >;
 
-            sensor-bindings;
+            sensor-bindings =
+                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp 0 0>;
         };
 
         layer_1 {
